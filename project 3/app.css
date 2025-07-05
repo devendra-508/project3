@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background: #00ff00;
+  font-family: 'Courier New', monospace;
+  transition: 0.3s ease;
+}
+
+.container {
+  background: #1e1e1e;
+  color: #fff;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+  position: relative;
+}
+
+h2, h3 {
+  margin-bottom: 20px;
+}
+
+.password-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.password-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  background: #000;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+.password-box button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+hr{
+border: none; border-top: 2px dotted gray;
+
+}
+.customize {
+  border: 1px solid #444;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.checkboxes label {
+  display: block;
+  margin: 8px 0;
+}
+
+.length-control {
+  margin-top: 20px;
+  margin-left:40%;
+  margin-bottom: 10%;
+}
+
+.length-control input[type="range"] {
+  width: 81%;
+  display: block;
+}
+
+.generate {
+  background: #00ff00;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+footer .author {
+  color: #00ff00;
+}
+
+.toggle-mode {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.light-mode {
+  background: #f9f9f9;
+  color: #000;
+}
+
+.light-mode .container {
+  background: #fff;
+  color: #000;
+}
+
+.light-mode .password-box input {
+  background: #fff;
+  color: #000;
+}
+
+.light-mode .generate {
+  background: #000;
+  color: #fff;
+}
